@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+		<html lang="pl-PL">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> </title>
+		<A HREF="start.html">wróć</A>
+	</head>
+	<body>
+	<h2>Temat: Wewnętrzny arkusz stylów.</h2>
+	<h1>
+	 <OL TYPE=1 START=1> 
+		<LI>gdzie jest wstawiany,
+		<LI>składnia teoretyczna (w ramce, konieczne wcięcia),
+		<LI>jakie mogą być selektory,
+		<LI>jakie mogą być cechy i wartości.
+	</OL><br>
+	</h1>
+	<p><b>Odpowiedź na pytanie 1.</b><br>
+	<TEXTAREA ROWS="1" COLS="100">Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>.</TEXTAREA> <br>
+	<br>
+	<b>Odpowiedź na pytanie 2.</b><br>
+	Wewnętrzny arkusz stylów składnia teoretyczna:<br>
+	<TEXTAREA rows="11" cols="100"><head>
+		(...)
+	<style type="text/css">
+	/* <![CDATA[ */
+		selektor1 { cecha: wartość; cecha2: wartość2... }
+		selektor2 { cecha: wartość; cecha2: wartość2... }
+		(...)
+	/* ]]> */
+	</style>
+		(...)
+	</head></TEXTAREA><br>
+	<br>
+	<b>Odpowiedź na pytanie 3.</b><br>	
+	Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabei)<br>
+	i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi<br>
+	znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.<br>
+	<br>
+	<b>Odpowiedź na pytanie 4.</b><br>
+	Jako <b>"cecha"</b> (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty<br>
+	formatowania nam chodzi (opisane w kolejnych rozdziałach).<br>
+	Natomiast jako wyraz <b>"wartość"</b> wpisujemy dokładną wartość atrybutu.<br>
+	Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.</p>
+	</body>
+</html>
